@@ -10,10 +10,10 @@ namespace ClassLibrary1
     {
         public static List<int> Sequence(int N)
         {
-            List<int> primes = new List<int>();
+            List<int> var = new List<int>();
             for (int i = 1; i <= N; i++)
-                primes.Add(i);
-            return primes;
+                var.Add(i);
+            return var;
         }
         public  void SequenceDisplay(int N)
         {
